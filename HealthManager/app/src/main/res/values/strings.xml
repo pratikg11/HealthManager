@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Health Manager</string>
+    <string name="title_activity_main">Health Manager</string>
+    <string name="login_with_fitbit">Login with Fitbit</string>
+    <string name="scopes_granted_format">Scopes Granted: %s</string>
+    <string name="user_info">User</string>
+    <string name="activity_info">Activity</string>
+    <string name="weight">Weight</string>
+    <string name="hello_format">Hello %s!</string>
+    <string name="devices">Devices</string>
+    <string name="welcome">Welcome!</string>
+    <string name="fitbit_logo_description">Fitbit Logo</string>
+    <string name="error_loading_devices_format">Error loading devices: %s</string>
+    <string name="error_loading_activities_format">Error loading user activities: %s</string>
+    <string name="error_loading_user_format">Error loading user: %s</string>
+    <string name="scopes_missing_format">`%s` scope(s) required to function correctly.</string>
+    <string name="login_title">Login</string>
+    <string name="missing_scopes_error">Error logging in. Missing the following required scopes: </string>
+    <string name="login_dismissed">Login dismissed or no scopes selected</string>
+    <string name="no_data">No data</string>
+    <string name="loading">Loading…</string>
+    <string name="error_loading_data">Error loading data. Check your internet connection and try
+        again later.
+    </string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log in </string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="app_gender_value">Gender</string>
+    <string name="app_value_age">Age</string>
+    <string name="current_weight_kgs">Current Weight KGs</string>
+    <string name="save">Save</string>
+    <string name="duration">Duration</string>
+    <string name="current_weight_kg">Weight(kg)</string>
+    <string name="goal">Goal</string>
+    <string name="height_cm">Height(cm)</string>
+    <string name="recent">Recent</string>
+    <string name="password">Password</string>
+    <string name="username">Email</string>
+    <string name="_0000">0000</string>
+    <string name="exercise">Exercise</string>
+    <string name="today">Today\'s</string>
+    <string name="Intake">Intake</string>
+    <string name="remaining">Remaining</string>
+    <string name="add_fitbit">Add Fitbit</string>
+    <string name="add_food">Add Food</string>
+    <string name="Search_and_Add">Search &amp; Add Food</string>
+    <string name="oops">Oops</string>
+    <string name="calories">Calories</string>
+    <string name="add">Add</string>
+    <string name="food">Food</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="calorie">Calorie</string>
+    <string name="enter_food_name">Enter Food Name</string>
+    <string name="daily_activities">Daily Activities</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="search_amp_add_food"><![CDATA[Search & Add Food]]></string>
+    <string name="create_profile">Create Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="google_sense">Google Sense</string>
+
+    <string-array name="array_name">
+        <item>Gain</item>
+        <item>Reduce</item>
+        <item>Maintain</item>
+    </string-array>
+
+</resources>

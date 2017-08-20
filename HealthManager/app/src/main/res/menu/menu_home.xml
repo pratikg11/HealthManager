@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/fitbit"
+        android:title="@string/add_fitbit" />
+    <item
+        android:icon="@drawable/food"
+        android:title="@string/add_food" />
+    <item
+        android:icon="@drawable/search"
+        android:title="@string/Search_and_Add" />
+
+</menu>

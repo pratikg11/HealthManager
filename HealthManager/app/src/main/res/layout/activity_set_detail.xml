@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background"
+              android:orientation="vertical"
+              tools:context="com.fitbit.sampleandroidoauth2.Home.HMSetDetailsActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:visibility="visible"
+            android:text="@string/create_profile"
+            android:id="@+id/tv_title"/>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_parent_rounded_corner"
+                android:orientation="vertical"
+                android:elevation="5dp"
+                android:padding="20dp">
+
+                <EditText
+                    android:id="@+id/nameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:hint="@string/username"
+                    android:inputType="textPersonName"/>
+
+                <EditText
+                    android:id="@+id/passwordText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_parent_rounded_corner"
+                android:padding="20dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/textVie_recent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/recent"
+                    android:textSize="15sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textVie_recent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/weightText"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:hint="@string/current_weight_kgs"
+                        android:inputType="number"
+                        android:typeface="monospace"/>
+
+                    <EditText
+                        android:id="@+id/heightText"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="@string/height_cm"
+                        android:inputType="number"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_parent_rounded_corner"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:elevation="5dp">
+
+                <EditText
+                    android:id="@+id/ageText"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/app_value_age"
+                    android:inputType="number"/>
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:spinnerMode="dropdown"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_parent_rounded_corner"
+                android:padding="20dp"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/goal_layout"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView_desired"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/goal"
+                        android:textSize="15sp"/>
+
+                    <Spinner
+                        android:id="@+id/spinner2"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:entries="@array/array_name"
+                        android:textAlignment="center"
+                        android:spinnerMode="dropdown"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_desire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/goal_layout"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/desiredWeight"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:hint="@string/current_weight_kg"
+                        android:inputType="number"
+                        android:typeface="monospace"/>
+
+                    <EditText
+                        android:id="@+id/weeksText"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="@string/duration"
+                        android:inputType="number"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_remember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <com.hanks.library.AnimateCheckBox
+                    android:id="@+id/checkbox_remember"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:padding="3dp"
+                    app:animDuration="200"
+                    app:checkedColor="@color/colorAccent"
+                    app:lineColor="#fff"
+                    app:unCheckColor="#5b5b59" />
+
+                <TextView
+                    android:id="@+id/textview_remember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/checkbox_remember"
+                    android:layout_toRightOf="@id/checkbox_remember"
+                    android:text="@string/remember_me" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="AddUser"
+                android:text="@string/save"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
