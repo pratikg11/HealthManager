@@ -1,2 +1,2 @@
 # HealthManager
-This was a group project where we developed an android App to Calculate Daily Calorie Intake and many other functionalities
+This was a group project where we developed an android App which helps users to keep track of calories they are consuming daily. This app will calculate the users BMI and give them calorie target which they have to consume in order to maintain their weight. The app will also suggest the users what to eat based on the calorie count as well as inform them which food item contains how much calorie count. We used android sensors to keep track of user’s daily exercise.
