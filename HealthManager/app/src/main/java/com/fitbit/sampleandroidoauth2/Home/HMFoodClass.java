@@ -1,8 +1,6 @@
 package com.fitbit.sampleandroidoauth2.Home;
 
-/**
- * Created by niraj on 01-08-17.
- */
+
 
 public class HMFoodClass {
     private int foodID;
