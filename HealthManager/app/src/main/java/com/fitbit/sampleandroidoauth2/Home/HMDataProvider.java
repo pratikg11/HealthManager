@@ -7,9 +7,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 
-/**
- * Created by pratik on 7/30/2017.
- */
 
 public class HMDataProvider extends ContentProvider {
 
