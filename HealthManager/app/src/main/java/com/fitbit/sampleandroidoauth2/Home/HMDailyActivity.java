@@ -1,7 +1,5 @@
 package com.fitbit.sampleandroidoauth2.Home;
-/**
- * Created by Pratik on 8/1/2017.
- */
+
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.LoaderManager;
