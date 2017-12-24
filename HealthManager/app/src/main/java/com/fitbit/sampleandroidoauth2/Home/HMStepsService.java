@@ -16,9 +16,6 @@ import android.widget.Toast;
 
 import com.fitbit.sampleandroidoauth2.SharedPrefUtil;
 
-/**
- * Created by Kritika on 8/10/2017.
- */
 
 public class HMStepsService extends Service implements SensorEventListener {
 
