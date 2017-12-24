@@ -1,8 +1,6 @@
 package com.fitbit.sampleandroidoauth2.Home;
 
-/**
- * Created by Pratik on 8/2/2017.
- */
+
 
 import android.content.DialogInterface;
 import android.content.Intent;
