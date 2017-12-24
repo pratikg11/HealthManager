@@ -1,9 +1,7 @@
 package com.fitbit.sampleandroidoauth2.Home;
 import android.content.Context;
 import android.util.Base64;
-/**
- * Created by niraj on 04-08-17.
- */
+
 
 public class HMUserClass{
     private int userID = 0;
