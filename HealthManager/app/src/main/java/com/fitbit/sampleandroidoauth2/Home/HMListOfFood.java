@@ -1,9 +1,5 @@
 package com.fitbit.sampleandroidoauth2.Home;
 
-/**
- * Created by pratik on 7/30/2017.
- */
-
 import android.content.Context;
 import android.database.Cursor;
 import android.view.LayoutInflater;
