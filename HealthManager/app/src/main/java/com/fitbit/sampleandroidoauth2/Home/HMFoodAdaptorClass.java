@@ -10,9 +10,6 @@ import android.widget.TextView;
 
 import com.fitbit.sampleandroidoauth2.R;
 
-/**
- * Created by pratik on 7/30/2017.
- */
 
 public class HMFoodAdaptorClass extends CursorAdapter {
     public HMFoodAdaptorClass(Context context, Cursor c, int flags) {
