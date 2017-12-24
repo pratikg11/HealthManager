@@ -12,9 +12,7 @@ import android.widget.Toast;
 
 import com.fitbit.sampleandroidoauth2.R;
 
-/**
- * Created by Pratik on 8/6/2017.
- */
+
 
 public class HMManualAddFood extends AppCompatActivity {
     private int userId;
