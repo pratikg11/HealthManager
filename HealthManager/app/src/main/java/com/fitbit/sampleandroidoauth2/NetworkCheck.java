@@ -16,7 +16,7 @@ public class NetworkCheck {
             if (info.isConnected()) {
                 return true;
             } else {
-                return true;
+                return false;
             }
         }
     }
